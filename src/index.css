@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background-color: whitesmoke;
+  color: #616161 !important;
+  width: 100% !important;
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif !important;
+}
+#subscribeInput {
+  width: 100%;
+  padding: 8px 4px;
+  background-color: rgb(53, 53, 53);
+  border: 1px solid white;
+  color: white;
+}
+
+#subscribeInput:focus {
+  border: 1px solid white;
+  outline: none;
+}
+#subscribeButton {
+  padding: 10px 17px;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.activeClass {
+  color: black !important;
+  font-weight: 500;
+}
+
+#me {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
